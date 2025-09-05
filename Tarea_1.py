@@ -47,7 +47,7 @@ def convertVel(v: float) -> float:
 distAfelio, velAfelio = convertDist(5.28e12), convertVel(9.12e2)
 print(distAfelio, velAfelio)
 
-#c.
+#c. El programa desarrollado para convertir unidades del Sistema Internacional a unidades astronómicas introduce errores numéricos muy pequeños, casi insignificantes, ya que solo realiza operaciones aritméticas básicas como divisiones y multiplicaciones. La conversión de distancia (metros a unidades astronómicas) y de velocidad (metros por segundo a unidades astronómicas por año) se basa en constantes definidas con precisión, por lo que el único posible error proviene de la representación numérica de punto flotante en la computadora. Este error, conocido como error de redondeo, es mínimo y no afecta de manera significativa los resultados, especialmente en la escala astronómica. En el contexto del cometa Halley, cuya órbita tiene un período de aproximadamente 76 años, este programa no realiza cálculos dinámicos a lo largo del tiempo, por lo que no genera un error acumulativo por período orbital.
 
 
 
